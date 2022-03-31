@@ -1,0 +1,27 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+[remote "origin"]
+	url = git@cache:cachemonet0x0CF6619/move-batch.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[submodule "lib/ds-test"]
+	active = true
+	url = https://github.com/dapphub/ds-test
+[submodule "lib/hevm"]
+	active = true
+	url = https://github.com/alephao/hevm
+[submodule "lib/solmate"]
+	url = https://github.com/rari-capital/solmate
+	active = true
+[submodule "lib/forge-std"]
+	url = https://github.com/brockelmore/forge-std
+	active = true
+[user]
+	email = 90769841+gaslimitreached@users.noreply.github.com
+	name = gaslimitreached
